@@ -77,11 +77,11 @@ To convert annotations from Voc pascal to txt format (`xmin,ymin,xmax,ymax,class
 ## Examples of Annotated Images
 <img src="https://vcar.github.io/ASAYAR/images/image_895.png" width="700">
 
-## Citation
-Our paper introducing the dataset and the evaluations methods is published at the IEEE Transactions on Intelligent Transportation Systems 2020 and available [here](https://ieeexplore.ieee.org/document/9233923). If you make use of the ASAYAR dataset, please cite our following paper:
-
 ## Donwload
 The images and their annotations are available here. [Download Link](https://vcar.github.io/ASAYAR/)
+
+## Citation
+Our paper introducing the dataset and the evaluations methods is published at the IEEE Transactions on Intelligent Transportation Systems 2020 and available [here](https://ieeexplore.ieee.org/document/9233923). If you make use of the ASAYAR dataset, please cite our following paper:
 
 ```
 @ARTICLE{9233923,
