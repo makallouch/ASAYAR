@@ -81,5 +81,18 @@ The images and their annotations are available here. [Download Link](https://vca
 ## Examples of Annotated Images
 <img src="https://vcar.github.io/ASAYAR/images/image_895.png" width="700">
 
+## Citation
+Our paper introducing the dataset and the evaluations methods is published at the IEEE Transactions on Intelligent Transportation Systems 2020 and available [here](https://ieeexplore.ieee.org/document/9233923). If you make use of the ASAYAR dataset, please cite our following paper:
+
+```
+  @ARTICLE{9233923,
+          author={M. {Akallouch} and K. S. {Boujemaa} and A. {Bouhoute} and K. {Fardousse} and I. {Berrada}},
+          journal={IEEE Transactions on Intelligent Transportation Systems}, 
+          title={ASAYAR: A Dataset for Arabic-Latin Scene Text Localization in Highway Traffic Panels}, 
+          year={2020},
+          pages={1-11},
+          doi={10.1109/TITS.2020.3029451}} 
+
+```
 
 
