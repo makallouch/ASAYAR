@@ -1,10 +1,14 @@
-# ASAYAR
+## ASAYAR
+
+This is a description for the paper: <br/>
+[ASAYAR: A Dataset for Arabic-Latin Scene Text Localization in Highway Traffic Panels](https://ieeexplore.ieee.org/document/9233923)<br/>
+**Mohammed Akallouch; Kaoutar Sefrioui Boujemaa; Afaf Bouhoute; Khalid Fardousse; Ismail Berrada**
 
 ## Overview
-Welcome to ASAYAR, the first public dataset dedicated for Latin (French) and Arabic Scene Text Detection in Highway panels. It comprises more than 1800 well-annotated images. The dataset was colleted from Moroccan Highway and it has been manually annotated. ASAYAR data can be used to develop and evaluate traffic signs detection and French or Arabic text detection in different languages.
+ASAYAR is the first public dataset dedicated for Latin (French) and Arabic Scene Text Detection in Highway panels. It comprises more than 1800 well-annotated images. The dataset was colleted from Moroccan Highway and it has been manually annotated. ASAYAR data can be used to develop and evaluate traffic signs detection and French or Arabic text detection in different languages.
 
 ## Annotation format
-In the dataset, each instance's location is annotated by a rectangle bounding boxes. The bounding box can be denoted as `{XMIN, YMIN, XMAX, YMAX}`. An obejct has a class name denoted as CLASS. The global image information are defined as follows: FOLDER, **PATH**, **NAME**, and **SIZE**.
+In the dataset, each instance's location is annotated by a rectangle bounding boxes. The bounding box can be denoted as : <br/> `{XMIN, YMIN, XMAX, YMAX}`. An obejct has a class name denoted as CLASS. The global image information are defined as follows: FOLDER, **PATH**, **NAME**, and **SIZE**.
 The following script shows an example of annotation : 
 ```
 <annotation>
@@ -66,10 +70,8 @@ Train or Test/
         ├── image_1.png
         └── ...
 ```
-
 ## Import data
-To convert annotations from Voc pascal to txt format (`xmin,ymin,xmax,ymax,class`),
-
+We provide a [Jupyter Notebook](https://github.com/makallouch/ASAYAR/blob/main/Tools/Visualize_data.ipynb) with an example to import images and their annotations. 
 
 ## Convert to text format
 To convert annotations from Voc pascal to txt format (`xmin,ymin,xmax,ymax,class`) use `convert2txt.py`.
@@ -93,5 +95,3 @@ Our paper introducing the dataset and the evaluations methods is published at th
       doi={10.1109/TITS.2020.3029451}} 
 
 ```
-
-
