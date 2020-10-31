@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import os   
 
-data_folder = "Traffic signs/"
+data_folder = "Traffic signs/Annotations"
 out_folder = "Trafic_OUT/"
 
 files = [f for f in os.listdir(data_folder) if os.path.isfile(os.path.join(data_folder, f))]
